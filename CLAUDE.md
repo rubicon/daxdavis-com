@@ -13,11 +13,10 @@ The complete source for daxdavis.com, the personal site of Dax Davis.
 
 ## Host
 
-**GitHub is canonical for this repository**, which departs from the default that
-Forgejo is authoritative for originating repos. The reason is deploy tooling:
-Cloudflare Pages, Vercel, and Netlify connect to GitHub directly and to a
-self-hosted Forgejo not at all. `origin` points at GitHub. There is no Forgejo
-mirror, so do not add one or try to keep two hosts in sync.
+**GitHub is canonical for this repository.** `origin` points at GitHub and there
+is no mirror anywhere else. Do not add one, and do not try to keep this
+repository in sync across two hosts. The deploy platforms this site will use
+connect to GitHub directly, which is the whole reason it lives here.
 
 `gh` calls in this repository must strip the restricted PAT from the
 environment, because it does not carry the scopes this repo needs:

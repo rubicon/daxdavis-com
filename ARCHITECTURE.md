@@ -33,11 +33,10 @@ they carry different terms and live in separate files. Any new file is one or
 the other; when it is ambiguous, the MIT boundary stops at anything a reader
 would recognize as the site's writing or visual identity.
 
-**GitHub is the canonical host for this repository**, departing from the default
-that Forgejo is authoritative for originating repos. Cloudflare Pages, Vercel,
-and Netlify connect to GitHub directly and to a NAS-hosted Forgejo not at all.
-Deploy convenience decides it. `origin` points at GitHub, and there is no Forgejo
-mirror to keep in sync.
+**GitHub is the canonical host, and the only one.** Cloudflare Pages, Vercel, and
+Netlify all connect to a GitHub repository directly, so hosting the source here
+is what makes a one-step deploy possible. `origin` points at GitHub and there is
+no mirror to keep in sync.
 
 **Release automation signs its own commits.** `main` requires signed commits, and
 release-please commits through a GitHub App token so its API-created commits are
