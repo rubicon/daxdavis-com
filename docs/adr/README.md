@@ -9,8 +9,8 @@ architectural ones.
 
 | Record | Title | Status |
 | --- | --- | --- |
-| [0001](0001-site-framework-and-content-model.md) | Site framework and content model | proposed |
-| [0002](0002-hosting-and-deploy-target.md) | Hosting and deploy target | proposed |
+| [0001](0001-site-framework-and-content-model.md) | Site framework and content model | accepted |
+| [0002](0002-hosting-and-deploy-target.md) | Hosting and deploy target | accepted |
 
 ## When to write one
 
