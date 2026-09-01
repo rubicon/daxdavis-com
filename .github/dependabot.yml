@@ -1,0 +1,9 @@
+# GitHub requires the .yml spelling for this file.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
