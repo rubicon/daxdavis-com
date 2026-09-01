@@ -1,0 +1,38 @@
+name: Commit lint
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  commitlint:
+    name: Conventional Commits
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+
+      # No package.json is committed: the framework has not been chosen and this
+      # repository should not commit to a package manager before that decision.
+      # commitlint therefore brings its own dependencies at runtime.
+      - name: Install commitlint
+        run: |
+          npm init -y > /dev/null
+          npm install --no-save --no-audit --no-fund \
+            @commitlint/cli@19 @commitlint/config-conventional@19
+
+      - name: Lint commit messages in the pull request
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: npx commitlint --from "$BASE_SHA" --to "$HEAD_SHA" --verbose
