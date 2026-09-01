@@ -1,0 +1,29 @@
+# Per-issue worktrees (see the repository process policy)
+worktrees/
+
+# Local agent memory and scratch
+.remember/
+CLAUDE.local.md
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.cache/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.idea/
+*.swp
+.vscode/*
+!.vscode/extensions.json
