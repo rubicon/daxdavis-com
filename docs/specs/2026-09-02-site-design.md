@@ -83,9 +83,17 @@ site.
 
 Use the real target titles: **CMO / VP of Marketing**. Real titles held are also
 fine wherever they are accurate (Principal CMO at Rubicon, and the actual titles
-at Entrust, SonicWall and Imaginuity). "Executive" remains acceptable as an
-artifact noun — *Executive Profile*, *Executive Résumé* — because those name a
-category of document or page, not a claim about the person.
+at Entrust, SonicWall and Imaginuity). "Executive" survives in exactly one
+place: *Executive Résumé*, which names a standard document type the US
+corporate market already recognizes.
+
+It does **not** survive as a page name. An earlier draft of this spec kept
+*Executive Profile* on the reasoning that a page name is a category rather than
+a claim about the person. That reasoning is wrong for navigation: a nav label
+is read as a description of whoever the site is about, so "Executive Profile"
+smuggles back the self-label banned two paragraphs above. The page is
+**Profile**. This is the same principle that renamed "Record" to "Experience"
+in section 4 — a recruiter should not have to decode a label.
 
 ### AI is a modifier, not the noun
 
@@ -245,7 +253,7 @@ Primary navigation:
 | Page | Job |
 | --- | --- |
 | Home | Makes the hiring argument |
-| Executive Profile | Identity, leadership philosophy, career arc, the situations he leads best. **Not** the full timeline |
+| Profile | Identity, leadership philosophy, career arc, the situations he leads best. **Not** the full timeline |
 | Selected Impact | Three to six transformations, organized by problem |
 | Experience | Canonical timeline and role detail pages |
 | Contact | Direct, low friction |
@@ -340,9 +348,9 @@ interim.
 
 ## 7. Launch scope
 
-**In:** Home, Executive Profile, Selected Impact, Experience, Contact, Executive
-Résumé, a limited Recognition and Press selection, Advisory, dark and light
-modes, sitemap, structured data.
+**In:** Home, Profile, Selected Impact, Experience, Contact, Executive Résumé, a
+limited Recognition and Press selection, Advisory, dark and light modes,
+sitemap, structured data.
 
 **Out:** Insights, RSS, newsletter, search, tags, component library, any AI
 feature, the board page.
