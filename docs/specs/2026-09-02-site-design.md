@@ -32,7 +32,10 @@ reject an unsupported award; it cannot make a hiring case.
 
 ### Primary identity
 
-**Marketing and Growth Transformation Executive.**
+**CMO / VP of Marketing.**
+
+Stated as the role targeted, not as a self-applied label. Real titles are
+credible because they are verifiable; a self-description is not.
 
 ### Working thesis
 
@@ -70,8 +73,19 @@ Not "AI marketer", not "digital marketing executive", not "MarTech leader", not
 executive job". Each may be a facet; none is the frame.
 
 **Do not use "CMO-level".** It invites the reader to evaluate a title gap rather
-than executive capability. Use "Marketing Executive" or "Growth and Marketing
-Transformation Executive", and target CMO roles directly.
+than executive capability.
+
+**Do not use a bare self-label either** — not "Executive", not "Marketing
+Executive", not "Digital Marketing Executive". A title anyone can assign
+themselves proves nothing, and recruiters read it as padding. This is the
+maintainer's standing rule and it governs the résumé and LinkedIn as well as the
+site.
+
+Use the real target titles: **CMO / VP of Marketing**. Real titles held are also
+fine wherever they are accurate (Principal CMO at Rubicon, and the actual titles
+at Entrust, SonicWall and Imaginuity). "Executive" remains acceptable as an
+artifact noun — *Executive Profile*, *Executive Résumé* — because those name a
+category of document or page, not a claim about the person.
 
 ### AI is a modifier, not the noun
 
@@ -247,8 +261,9 @@ recruiters should not have to decode navigation labels.
 
 ### Home page structure
 
-1. Hero: name, executive descriptor, one value proposition, real portrait,
-   *View Selected Impact* and *Contact*.
+1. Hero: name, the descriptor line (**CMO / VP of Marketing** — a target title,
+   never a self-label), one value proposition, real portrait, *View Selected
+   Impact* and *Contact*.
 2. Executive proof bar: three verified facts establishing level and relevance.
 3. Selected Impact: three stories as problem, action, result.
 4. How value is created: the three pillars.
@@ -356,8 +371,7 @@ None of this blocks scaffolding. All of it blocks launch.
 
 | Item | Why it matters |
 | --- | --- |
-| Exact positioning line | Joint work. Must follow from target roles and evidence |
-| Team, budget and P&L scope | Establishes executive level. Not yet supplied |
+| Exact value-proposition line | Joint work. The identity is settled (CMO / VP of Marketing); the one-sentence claim beneath it is not |
 | Publishability of employer and client metrics | Truthful is not the same as disclosure-safe |
 | Current consulting activity | Decides whether Advisory can describe active work |
 | The three strongest impact stories | These drive the home page |
