@@ -82,18 +82,23 @@ maintainer's standing rule and it governs the résumé and LinkedIn as well as t
 site.
 
 Use the real target titles: **CMO / VP of Marketing**. Real titles held are also
-fine wherever they are accurate (Principal CMO at Rubicon, and the actual titles
-at Entrust, SonicWall and Imaginuity). "Executive" survives in exactly one
-place: *Executive Résumé*, which names a standard document type the US
-corporate market already recognizes.
+fine wherever they are accurate (Principal CMO at Rubicon, Executive Vice
+President where that was the title, and the actual titles at Entrust, SonicWall
+and Imaginuity).
 
-It does **not** survive as a page name. An earlier draft of this spec kept
-*Executive Profile* on the reasoning that a page name is a category rather than
-a claim about the person. That reasoning is wrong for navigation: a nav label
-is read as a description of whoever the site is about, so "Executive Profile"
-smuggles back the self-label banned two paragraphs above. The page is
-**Profile**. This is the same principle that renamed "Record" to "Experience"
-in section 4 — a recruiter should not have to decode a label.
+**The word appears nowhere else on the site.** It is not a page name, not a
+section label, and not a description of the audience. An earlier draft of this
+spec carved out an exception for "artifact nouns" and kept *Executive Profile*
+and *Executive Résumé*, on the reasoning that those name a category rather than
+a claim about the person. The carve-out does not hold. A label is read as a
+description of whoever the site is about, so it smuggles back the self-label
+banned two paragraphs above, and a reader does not stop to classify a word as
+noun or claim before drawing a conclusion from it. The page is **Profile** and
+the document is a **Résumé**. This is the same principle that renamed "Record"
+to "Experience" in section 4 — a recruiter should not have to decode a label.
+
+The word is kept in exactly one role: a title actually held, written as the
+title. Nowhere else, and never as a self-description.
 
 ### AI is a modifier, not the noun
 
@@ -111,7 +116,7 @@ Ranked. When they conflict, this order decides.
 
 | Priority | Audience | What they need |
 | ---: | --- | --- |
-| 1 | Executive recruiters, CEOs, CHROs, hiring executives, owners, investors | Executive fit, scope, impact, leadership credibility |
+| 1 | Retained search firms, CEOs, CHROs, hiring leaders, owners, investors | Fit at this level, scope, impact, leadership credibility |
 | 2 | Warm referrals and credibility checks | Fast confirmation that the reputation is real |
 | 3 | Advisory and interim prospects | Evidence of relevant judgment and current capability |
 | 4 | Peers, media, podcast hosts, practitioners | A distinctive point of view |
@@ -258,8 +263,8 @@ Primary navigation:
 | Experience | Canonical timeline and role detail pages |
 | Contact | Direct, low friction |
 
-Secondary navigation or footer: Recognition and Press, Advisory, Executive
-Résumé, LinkedIn. `Insights` joins the primary nav when it exists.
+Secondary navigation or footer: Recognition and Press, Advisory, Résumé,
+LinkedIn. `Insights` joins the primary nav when it exists.
 
 Two changes from the previous version worth stating. **"Profile" and "Record"
 were two doors into the same room**; visitors would click both and find the same
@@ -272,7 +277,7 @@ recruiters should not have to decode navigation labels.
 1. Hero: name, the descriptor line (**CMO / VP of Marketing** — a target title,
    never a self-label), one value proposition, real portrait, *View Selected
    Impact* and *Contact*.
-2. Executive proof bar: three verified facts establishing level and relevance.
+2. Proof bar: three verified facts establishing level and relevance.
 3. Selected Impact: three stories as problem, action, result.
 4. How value is created: the three pillars.
 5. Career arc: concise, significant roles and environments.
@@ -287,7 +292,7 @@ Reordered. A public calendar is not the right primary action for a recruiter or
 CEO: it asks for a high-commitment decision before first contact, and it carries
 consulting associations regardless of button copy.
 
-**Home page:** *View Selected Impact* → *Contact* → *Download Executive Résumé*.
+**Home page:** *View Selected Impact* → *Contact* → *Download Résumé*.
 
 **Contact page:** direct email or a very short form, then LinkedIn, then calendar
 as an optional convenience.
@@ -296,7 +301,7 @@ as an optional convenience.
 a form or book a meeting to send two paragraphs. This supersedes the earlier "no
 public email" decision.
 
-**Executive Résumé**, not CV, for the US corporate market. Ungated, dated with
+**Résumé**, not CV, for the US corporate market. Ungated, dated with
 month and year, ATS-friendly, Dallas-Fort Worth rather than a street address,
 refreshed whenever experience or positioning changes. A board bio is a separate
 later artifact.
@@ -348,9 +353,9 @@ interim.
 
 ## 7. Launch scope
 
-**In:** Home, Profile, Selected Impact, Experience, Contact, Executive Résumé, a
-limited Recognition and Press selection, Advisory, dark and light modes,
-sitemap, structured data.
+**In:** Home, Profile, Selected Impact, Experience, Contact, Résumé, a limited
+Recognition and Press selection, Advisory, dark and light modes, sitemap,
+structured data.
 
 **Out:** Insights, RSS, newsletter, search, tags, component library, any AI
 feature, the board page.
@@ -433,7 +438,7 @@ Four decisions recorded in the first draft were reversed deliberately and are
 noted here so they are not re-proposed as oversights: collections may now relate
 to each other; email precedes the calendar in the conversion path and a public
 address is published; board service moves to a separate track; and the downloadable
-document is an Executive Résumé rather than a CV.
+document is a Résumé rather than a CV.
 
 Market claims cited in that review about CMO hiring patterns, board appointment
 rates and enterprise AI adoption were not independently verified for this spec.
